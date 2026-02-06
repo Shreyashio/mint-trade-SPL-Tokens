@@ -40,6 +40,8 @@ const to = new PublicKey("7pbLhwipL1p7LV1c857V5eRSkF3ZvV9nH3BUeCFeTv7M");
             toTokenAccount.address,
             keypair.publicKey,
             10_000_000 // 10 tokens, remember 1 token = 1_000_000 (6 decimals)
+
+            //  1e66 = 1 token with 6 decimals
         );
         console.log(`Transfer successful! Check out your TX here: 
         https://explorer.solana.com/tx/${signature}?cluster=devnet`);
